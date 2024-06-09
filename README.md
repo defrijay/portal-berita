@@ -47,6 +47,9 @@ php artisan serve
 # Buka servernya
 http://127.0.0.1:8000/
 
+# Import collections Restful API nya
+Portal_Berita API.postman_collection
+
 # Ujicoba dengan untuk restful apinya dengan postman
 
 ```
@@ -55,7 +58,7 @@ http://127.0.0.1:8000/
 1. Sebelum mencobanya dengan postman pastikan login terlebih dahulu dengan email `admin@gmail.com` dan password `rahasia`.
 2. Masukkan url utama berikut 
 `http://127.0.0.1:8000/api/`
-3. Selanjutnya maka url dapat digunakan untuk pengetesan create, read, update, dan delete data dengan metode `GET`, `POST`, `PATCH`, dan `DELETE` untuk melakukan crud.
+3. Selanjutnya maka url dapat digunakan untuk pengetesan create, read, update, dan delete data dengan metode `GET`, `POST`, `PATCH`, dan `DELETE` untuk melakukan crud postingan maupun komentarnya
 
 
 
